@@ -1,7 +1,8 @@
 
+import "../styles/components/maincontent.sass";
 
 export function MainContent() {
   return (
-    <div>MainContent</div>
+    <main id="main-content">Conteúdo</main>
   );
 }
