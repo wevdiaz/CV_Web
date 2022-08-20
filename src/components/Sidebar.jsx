@@ -1,4 +1,5 @@
 import { SocialNetworks } from "./SocialNetworks";
+import { InformationContainer } from "./InformationContainer";
 
 import Avatar from "../images/photo.jpeg";
 
@@ -10,7 +11,7 @@ export function Sidebar() {
       <img src={Avatar} alt="Weverson Diazz" />
       <p className="title">Desenvolvedor</p>
       <SocialNetworks />
-      <p>informações de contato</p>
+      <InformationContainer />
       <a href="#" className="btn">
         download curriculo
       </a>
