@@ -1,4 +1,4 @@
-import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+import { AiFillPhone, AiOutlineMail, AiFillEnvironment, AiOutlineGlobal } from "react-icons/ai";
 
 import "../styles/components/informationcontainer.sass";
 
@@ -9,7 +9,7 @@ export function InformationContainer() {
         <AiFillPhone id="phone-icon" />
         <div>
           <h3>Telefone</h3>
-          <p>(11) 99999-0000</p>
+          <p>(11) 99803-4555</p>
         </div>
       </div>
 
@@ -26,6 +26,14 @@ export function InformationContainer() {
         <div>
           <h3>Localização</h3>
           <p>VGP / SP</p>
+        </div>
+      </div>
+
+      <div className="info-card">
+        <AiOutlineGlobal id="website-icon" />
+        <div>
+          <h3>Website</h3>
+          <p><a href="https://diazzportfolio.herokuapp.com/" target="_blank">Portfolio</a></p>
         </div>
       </div>
     </section>

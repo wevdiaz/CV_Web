@@ -5,8 +5,7 @@ export function ProjectsContainer() {
     <section id="projects-container">
       <h2>Projetos</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas omnis recusandae fuga odit. Neque tempore suscipit aperiam error. Fugiat rerum officia, animi voluptates similique repudiandae eaque ab natus accusamus enim?
-        Ab in molestias repudiandae non, placeat distinctio maxime libero voluptatem inventore, laboriosam quibusdam recusandae quam aliquam dignissimos harum esse! Quo nisi numquam dolores expedita quis tempore enim porro nostrum rerum!
+        Aqui estão os projetos desenvolvidos durante eventos de tecnologias, onde tem deste os primeiros passos com o básico do HTML, CSS e JS até a utilização de bancos de dados, templates e frameworks. Com eles é possível eu ter uma base da minha evolução e progresso nesta jornada de aprendizado web.
       </p>
       <a href="https://github.com/wevdiaz" className="btn" target="_blank">
         ver projetos

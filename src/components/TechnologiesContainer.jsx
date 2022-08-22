@@ -10,12 +10,12 @@ import {
 import "../styles/components/technologiescontainer.sass";
 
 const technologies = [
-  { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-  { id: "css", name: "CSS3", icon: <DiCss3 /> },
-  { id: "js", name: "Javascript", icon: <DiJsBadge /> },
-  { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
-  { id: "git", name: "Git", icon: <DiGit /> },
-  { id: "react", name: "React", icon: <DiReact /> }
+  { id: "html", name: "HTML5", icon: <DiHtml5 />, description: "Conhecimento intermediário, semântico, modal" },
+  { id: "css", name: "CSS3", icon: <DiCss3 />, description: "Conhecimento Médio -flex, grid, Media query" },
+  { id: "js", name: "Javascript", icon: <DiJsBadge />, description: "Variavéis, funções, classes,estruturas de dados, Promises" },
+  { id: "node", name: "Node.js", icon: <DiNodejsSmall />, description: "Conhecimento básico, pacotes npm, servidor, api, banco de dados" },
+  { id: "git", name: "Git", icon: <DiGit />, description: "Conhecimento em comandos básico, commits, github, merge" },
+  { id: "react", name: "React", icon: <DiReact />, description: "Conhecimento básico, componentes, hooks, api, props" }
 ];
 
 export function TechnologiesContainer() {
@@ -30,7 +30,7 @@ export function TechnologiesContainer() {
               <div className="technology-info">
                 <h3>{tech.name}</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                {tech.description}
                 </p>
               </div>
             </div>
