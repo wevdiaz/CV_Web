@@ -1,6 +1,11 @@
 # CV_Web
 
 ***
+<p align="center">
+    <img src="https://github.com/wevdiaz/CV_Web/blob/master/image/tela_PageFolio.png?raw=true">
+</p>
+
+***
 
 <p align="center">  
       <a>
