@@ -45,6 +45,6 @@ Para rodar a página
 
 ### :scroll: Licença
 
-Esse projeto está sob a licença [MIT](https://github.com/wevdiaz/CV_Web/blob/main/LICENSE)
+Esse projeto está sob a licença [MIT](https://github.com/wevdiaz/CV_Web/blob/master/LICENSE)
 
 Projeto sendo desenvolvido com :blue_heart:.
